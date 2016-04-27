@@ -12,7 +12,7 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editTextSearch"
+        android:id="@+id/searchField"
         android:layout_marginTop="120dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
