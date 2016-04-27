@@ -5,9 +5,9 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:layout_width="130dp"
-        android:layout_height="100dp"
-        android:id="@+id/restaurantImageView"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:id="@+id/movieImageView"
         android:src="@drawable/waffles"
         android:scaleType="centerCrop"/>
 
@@ -21,18 +21,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/restaurantNameTextView"
+            android:id="@+id/movieNameTextView"
+            android:text="Movie Title"
             android:textSize="20dp"
             android:textStyle="bold"
-            android:text="Restaurant Name"
             android:textColor="@color/colorPrimary"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="One Cuisine Type"
-            android:id="@+id/categoryTextView"
-            android:layout_below="@+id/restaurantNameTextView"
+            android:text="Synopsis"
+            android:id="@+id/synopsisTextView"
+            android:layout_below="@+id/movieNameTextView"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:textStyle="italic"/>
@@ -44,7 +44,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rating"
+                android:text="Release Date"
+                android:id="@+id/movieRelease"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Average Rating"
                 android:id="@+id/ratingTextView"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentRight="true"
