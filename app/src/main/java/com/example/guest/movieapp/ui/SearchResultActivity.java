@@ -22,7 +22,7 @@ public class SearchResultActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String title = intent.getStringExtra("title");
-        mResultsText.setText("Here are teh results for " + title);
+        mResultsText.setText("Here are the results for '" + title + "':");
 
 
     }
